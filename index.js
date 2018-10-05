@@ -3,3 +3,10 @@ function iterativeLog(array) {
     console.log(`${index}: ${element}`)
   })
 }
+
+function iterate(callback) {
+  const colors=["red","blue","green"];
+
+  colors.forEach(callback);
+  return colors
+}
